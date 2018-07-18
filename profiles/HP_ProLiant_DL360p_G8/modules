@@ -1,0 +1,7 @@
+ahci
+ata_piix
+tg3
+ehci-pci
+hpsa
+uhci-hcd
+uvesafb

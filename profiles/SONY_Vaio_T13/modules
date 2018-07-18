@@ -1,0 +1,17 @@
+intel-agp
+i915
+ac
+battery
+ahci
+ehci-pci
+uhci-hcd
+xhci-hcd
+r8169
+ath9k
+snd-hda-codec-hdmi
+snd-hda-codec-realtek
+snd-hda-codec
+snd-hda-intel
+hso
+sony-laptop
+rtsx_pci_sdmmc

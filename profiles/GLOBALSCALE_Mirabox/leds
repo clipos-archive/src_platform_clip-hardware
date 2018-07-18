@@ -1,0 +1,2 @@
+LEDS_MAP="/etc/conf.d/leds.map"
+LEDS_SYSPATH="/sys/devices/virtual/it87gpiolight"

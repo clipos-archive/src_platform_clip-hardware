@@ -1,0 +1,6 @@
+mptsas
+igb
+ehci-pci
+uhci-hcd
+tg3
+uvesafb

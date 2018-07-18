@@ -1,0 +1,17 @@
+intel-agp
+i915
+ac
+battery
+ahci
+ata_piix
+ehci-pci
+xhci-hcd
+mmc_block
+sdhci-pci
+tg3
+snd-hda-codec-hdmi
+snd-hda-codec-idt
+snd-hda-codec
+snd-hda-intel
+brcmsmac
+hso

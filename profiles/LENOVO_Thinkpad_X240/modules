@@ -1,0 +1,24 @@
+intel-agp
+mac80211
+i915
+ac
+battery
+ahci
+ehci-pci
+uhci-hcd
+xhci-hcd
+xhci-pci
+mac80211
+iwlwifi
+iwlmvm [noload]
+e1000e
+mmc_block
+rtsx_pci_sdmmc
+sdhci-pci
+snd-hda-codec-hdmi
+snd-hda-codec-realtek
+snd-hda-codec
+snd-hda-intel
+hso
+thinkpad_acpi
+uvcvideo

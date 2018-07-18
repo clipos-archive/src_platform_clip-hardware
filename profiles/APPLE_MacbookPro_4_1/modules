@@ -1,0 +1,17 @@
+ahci
+ac
+battery
+ehci-pci
+uhci-hcd
+sky2
+b43
+snd-hda-codec-realtek
+snd-hda-codec
+snd-hda-intel
+ata_piix
+nouveau
+hid-apple
+bcm5974
+applesmc
+apple_bl
+

@@ -1,0 +1,19 @@
+ac
+ahci
+ata_piix
+battery
+e1000e
+ehci-hcd
+hso
+i915
+intel-agp
+mac80211
+iwlmvm [noload]
+iwlwifi
+mmc_block
+sdhci-pci
+snd-hda-codec
+snd-hda-codec-hdmi
+snd-hda-codec-idt
+snd-hda-intel
+xhci-hcd

@@ -1,0 +1,19 @@
+ac
+mac80211
+ahci
+battery
+ehci-pci
+hso
+intel-agp
+i915 preliminary_hw_support=1 semaphores=1
+mmc_block
+rtsx_pci_sdmmc
+sdhci-pci
+snd-hda-codec
+snd-hda-codec-hdmi
+snd-hda-codec-idt
+snd-hda-intel
+xhci-hcd
+e1000e
+iwlwifi
+iwlmvm [noload]

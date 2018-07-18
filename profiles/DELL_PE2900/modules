@@ -1,0 +1,8 @@
+mptsas
+scsi_wait_scan
+raid1
+bnx2
+ehci-pci
+uhci-hcd
+RAID
+uvesafb

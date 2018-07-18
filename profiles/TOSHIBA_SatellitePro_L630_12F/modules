@@ -1,0 +1,13 @@
+intel-agp
+i915
+ac
+battery
+ahci
+ehci-pci
+uhci-hcd
+atl1c
+snd-hda-codec-realtek
+snd-hda-codec
+snd-hda-intel
+brcmsmac
+hso

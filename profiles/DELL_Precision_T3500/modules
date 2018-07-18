@@ -1,0 +1,10 @@
+ahci
+ehci-hcd
+uhci-hcd
+tg3
+snd-hda-codec-hdmi
+snd-hda-codec-realtek
+snd-hda-codec
+snd-hda-intel
+radeon
+drm_kms_helper

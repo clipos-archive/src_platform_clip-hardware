@@ -1,0 +1,15 @@
+intel-agp
+i915
+ac
+battery
+ahci
+ata_piix
+ehci-pci
+uhci-hcd
+et131x
+snd-hda-codec-si3054
+snd-hda-codec-realtek
+snd-hda-codec
+snd-hda-intel
+iwl4965
+hso

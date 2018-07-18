@@ -1,0 +1,16 @@
+intel-agp
+i915
+ac
+battery
+ahci
+ata_piix
+ehci-pci
+uhci-hcd
+e1000e
+thinkpad_acpi
+snd-hda-codec-conexant
+snd-hda-codec
+snd-hda-intel
+rtl8192ce
+hso
+thinkpad_acpi

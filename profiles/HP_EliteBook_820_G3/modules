@@ -1,0 +1,22 @@
+ac
+ahci
+battery
+e1000e
+ehci-pci
+hp-wmi
+hso
+i915
+mac80211
+iwlwifi
+iwlmvm [noload]
+mmc_block
+rtsx_pci_sdmmc
+sdhci-pci
+snd-hda-codec
+snd-hda-codec-hdmi
+snd-hda-codec-idt
+snd-hda-intel
+uhci-hcd
+uvcvideo
+xhci-hcd
+xhci-pci

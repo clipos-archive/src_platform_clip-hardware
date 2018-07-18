@@ -1,0 +1,39 @@
+#!/bin/sh
+# SPDX-License-Identifier: LGPL-2.1-or-later
+# Copyright © 2013-2018 ANSSI. All Rights Reserved.
+#
+# Helper to get informations about hardware
+#
+# Copyright 2012-2013 SGDSN/ANSSI
+# Author: Mickaël Salaün <clipos@ssi.gouv.fr>
+# All rights reserved.
+
+DIR="$1"
+if ! mkdir -p -- "${DIR}"; then
+	echo "usage: $0 <output-dir>" >&2
+	exit 1
+fi
+
+export LC_ALL=C
+
+dmidecode -u >"${DIR}/dmidecode.txt"
+dmidecode --dump-bin "${DIR}/dmidecode.bin" >/dev/null
+biosdecode  >"${DIR}/biosdecode.txt"
+get-edid 2>/dev/null | tee "${DIR}/edid.bin" | parse-edid >"${DIR}/edid.txt" 2>/dev/null
+lshw -numeric -dump "${DIR}/lshw.sqlite" 2>/dev/null >"${DIR}/lshw.txt"
+lshw -xml -numeric 2>/dev/null >"${DIR}/lshw.xml"
+lspci -vvnn >"${DIR}/lspci.txt"
+lsusb -v >"${DIR}/lsusb.txt"
+lsmod >"${DIR}/lsmod.txt"
+ifconfig -a >"${DIR}/ifconfig.txt"
+
+i=0
+for block in /sys/block/sd*; do
+	readlink "${block}" | grep -qE '/usb[0-9]+/' && continue
+	disk="/dev/$(basename -- "${block}")"
+	[ -b "${disk}" ] || continue
+	hdparm -I "${disk}" >"${DIR}/hdparm${i}.txt"
+	sdparm -al "${disk}" >"${DIR}/sdparm${i}.txt"
+	smartctl -x "${disk}" >"${DIR}/smartctl${i}.txt"
+	let i++
+done

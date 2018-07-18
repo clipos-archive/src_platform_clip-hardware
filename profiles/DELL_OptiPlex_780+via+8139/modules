@@ -1,0 +1,12 @@
+ehci-pci
+uhci-hcd
+ahci
+e1000e
+via-rhine
+8139too
+ata_piix
+intel-agp
+i915
+snd-hda-codec-analog
+snd-hda-intel
+snd-hda-codec

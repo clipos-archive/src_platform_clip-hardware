@@ -1,0 +1,16 @@
+ehci-pci
+i915 preliminary_hw_support=1 semaphores=1
+ahci
+snd-hda-codec-hdmi
+snd-hda-codec-realtek
+snd-hda-codec
+snd-hda-intel
+drm_kms_helper
+ac
+battery
+xhci_hcd
+lpc_ich
+i2c_i801
+mwifiex
+mwifiex_pcie
+pcieport

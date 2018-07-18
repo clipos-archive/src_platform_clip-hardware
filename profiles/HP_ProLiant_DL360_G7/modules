@@ -1,0 +1,7 @@
+ahci
+ata_piix
+bnx2
+ehci-pci
+hpsa
+uhci-hcd
+uvesafb

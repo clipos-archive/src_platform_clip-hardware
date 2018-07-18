@@ -1,0 +1,20 @@
+intel-agp
+i915
+ac
+battery
+ahci
+ehci-pci
+uhci-hcd
+xhci-hcd
+mac80211
+iwlwifi
+iwldvm [noload]
+r8169
+snd-hda-codec-hdmi
+snd-hda-codec-realtek
+snd-hda-codec
+snd-hda-intel
+hso
+hid-multitouch
+uvcvideo
+rtsx_pci_sdmmc

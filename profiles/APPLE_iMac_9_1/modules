@@ -1,0 +1,13 @@
+ahci
+ac
+battery
+ohci-hcd
+uhci-hcd
+forcedeth
+snd-hda-codec-realtek
+snd-hda-codec
+snd-hda-intel
+b43
+ata_piix
+drm_kms_helper
+nouveau noaccel=1

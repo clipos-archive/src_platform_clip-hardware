@@ -1,0 +1,15 @@
+intel-agp
+i915
+ac
+battery
+ahci
+ehci-pci
+uhci-hcd
+tg3
+snd-hda-codec-idt
+snd-hda-codec
+snd-hda-intel
+mac80211
+iwlwifi
+iwldvm [noload]
+hso

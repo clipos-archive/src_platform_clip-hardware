@@ -1,0 +1,22 @@
+intel-agp
+i915
+ac
+battery
+ahci
+ehci-pci
+uhci-hcd
+xhci-hcd
+mmc_block
+sdhci-pci
+e1000e
+mac80211
+iwlwifi
+iwldvm [noload]
+snd-hda-codec-hdmi
+snd-hda-codec-realtek
+snd-hda-codec
+snd-hda-intel
+hso
+8250_pnp
+serport
+wacom_w8001

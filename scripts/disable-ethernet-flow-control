@@ -1,0 +1,14 @@
+#!/bin/sh
+# SPDX-License-Identifier: LGPL-2.1-or-later
+# Copyright © 2013-2018 ANSSI. All Rights Reserved.
+
+. /sbin/functions.sh
+
+for nic in /sys/class/net/eth*; do
+	[[ -e "${nic}" ]] || continue
+	nic="$(basename ${nic})"
+	ebegin "Turning off flow control on ethernet interface ${nic}"
+	ethtool -A "${nic}" autoneg off rx off tx off 2>/dev/null
+	eend $?
+done
+

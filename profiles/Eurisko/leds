@@ -1,0 +1,2 @@
+LEDS_MAP="/etc/conf.d/leds.map"
+LEDS_SYSPATH="/sys/devices/gpio-leds.2/leds/"

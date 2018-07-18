@@ -1,0 +1,9 @@
+ahci
+ehci-pci
+uhci-hcd
+e1000e
+snd-hda-codec-hdmi
+snd-hda-codec-realtek
+snd-hda-codec
+snd-hda-intel
+uvesafb

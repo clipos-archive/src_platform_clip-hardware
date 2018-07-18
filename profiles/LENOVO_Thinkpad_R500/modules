@@ -1,0 +1,17 @@
+intel-agp
+i915
+ac
+battery
+ahci
+ata_piix
+ehci-pci
+uhci-hcd
+tg3
+thinkpad_acpi
+snd-hda-codec-conexant
+snd-hda-codec
+snd-hda-intel
+mac80211
+iwlwifi
+iwldvm [noload]
+hso

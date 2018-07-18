@@ -1,0 +1,13 @@
+ac
+battery
+ata_piix
+ahci
+ehci-pci
+uhci-hcd
+sky2
+snd-hda-codec-idt
+snd-hda-codec
+snd-hda-intel
+mac80211
+iwlwifi
+iwldvm [noload]

@@ -1,0 +1,10 @@
+ahci
+ata_piix
+e1000e
+ehci-pci
+uhci-hcd
+scsi_wait_scan
+raid1
+RAID
+uvesafb
+igb

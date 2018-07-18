@@ -1,0 +1,8 @@
+ahci
+ata_piix
+ehci-pci
+ioatdma
+megaraid_sas
+uhci-hcd
+uvesafb
+igb

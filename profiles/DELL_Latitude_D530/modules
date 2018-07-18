@@ -1,0 +1,17 @@
+intel-agp
+i915
+pcmcia_core
+yenta_socket
+8139cp
+ac
+battery
+ata_piix
+ehci-pci
+uhci-hcd
+tg3
+snd-hda-codec-idt
+snd-hda-codec
+snd-hda-intel
+iwl3945
+hso
+ahci

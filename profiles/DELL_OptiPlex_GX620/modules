@@ -1,0 +1,8 @@
+ehci-pci
+uhci-hcd
+ahci
+tg3
+ata_piix
+intel-agp
+i915
+snd-intel8x0

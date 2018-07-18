@@ -1,0 +1,13 @@
+mvmdio
+ehci-pci
+ehci-platform
+ehci-orion
+xhci-hcd
+mmc_core
+mmc_block
+mvsdio
+sdhci
+sdhci-pltfm
+mvneta
+marvell
+leds-gpio

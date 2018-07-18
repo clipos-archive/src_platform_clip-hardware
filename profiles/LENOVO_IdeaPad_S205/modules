@@ -1,0 +1,14 @@
+ahci
+ehci-pci
+ohci-hcd
+r8169
+snd-hda-codec-hdmi
+snd-hda-codec-realtek
+snd-hda-codec
+snd-hda-intel
+rt2800pci
+radeon
+drm_kms_helper
+hso
+ac
+battery

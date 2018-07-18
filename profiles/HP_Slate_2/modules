@@ -1,0 +1,19 @@
+intel-agp
+ac
+battery
+ahci
+ata_piix
+ehci-pci
+uhci-hcd
+snd-hda-codec-si3054
+snd-hda-codec-realtek
+snd-hda-codec
+snd-hda-intel
+hso
+mmc_block
+sdhci-pci
+sdhci debug_quirks=0x20
+ath6kl_sdio
+hid-ntrig
+uvesafb
+hp-wmi
